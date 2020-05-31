@@ -14,7 +14,7 @@ use yii\filters\VerbFilter;
  * Class DailyController
  * @package app\modules\astrale\controllers
  */
-class DailyController extends VController
+class DailyController extends AstraleController
 {
     /**
      * @return string
