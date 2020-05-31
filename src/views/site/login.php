@@ -14,6 +14,7 @@ factorenergia\adminlte3\assets\FontAwesomeAsset::register($this);
 factorenergia\adminlte3\assets\BasicAsset::register($this);
 AppAsset::register($this);
 
+$this->title = 'Login';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -27,11 +28,11 @@ AppAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
-<body class="login-page" style="background: grey">
+<body class="login-page">
 <?php $this->beginBody() ?>
 <div class="login-box">
     <div class="login-logo">
-        <img src="/images/logo.svg" height="80" alt="Norton Solutions"/>
+        <img src="/images/logo.svg" height="80" alt="VVADMIN"/>
     </div>
     <div class="card">
         <div class="card-body login-card-body">
